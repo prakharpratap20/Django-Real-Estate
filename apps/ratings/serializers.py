@@ -15,4 +15,3 @@ class RatingSerialzer(serializers.ModelSerializer):
 
     def get_agent(self, obj):
         return obj.agent.user.username
-
